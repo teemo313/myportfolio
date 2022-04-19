@@ -1,0 +1,20 @@
+.edubg{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.eduphoto{
+    width: 290px;
+    height: 390px;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+.div3{
+    color: #494846;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+}

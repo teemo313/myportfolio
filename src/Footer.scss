@@ -1,0 +1,20 @@
+.footbg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+    background-color: #ededed;
+    
+    justify-items: center;
+    align-items: center;
+}
+.footp{
+    width: 100%;
+    font-size: 14px;
+    color: black;
+}
+
+.footh1{
+    margin-bottom: 1.5rem;
+    margin-top: 0px;
+    margin-left: 2.5rem;
+}
