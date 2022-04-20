@@ -3,8 +3,7 @@ import './Career.scss'
 import {FaHouzz, FaSchool} from "react-icons/fa";
 import { MdVolunteerActivism, MdSchool } from "react-icons/md"
 import { GiPistolGun } from "react-icons/gi"
-// import { BsImages } from "react-icons/bs"
-
+import { BsImages } from "react-icons/bs"
 
 
 import './App.css';
@@ -23,7 +22,7 @@ const Career = () => {
             <div>
                 <h1 className='titlefont'>TimeLine</h1>
             </div>
-            <div></div><div></div>
+            <div></div><div className='bgcolorca'></div>
             <div className='innergrid' style={{
                 // justifyItems:'center', 
                 alignItems:'center',
@@ -90,6 +89,7 @@ const Career = () => {
                     <p className='careerp3'>기술연구소 사원</p>
                 </div>
             </div>
+            <div className='bgcolorca'></div>
           
         </div>
 

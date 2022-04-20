@@ -23,15 +23,26 @@
 .photo{
     width: 200px;
     margin-left: 1.5rem;
-    opacity: 0.8;
+    opacity: 1.0;
+    
+    // opacity:
     // border-radius: 3px;
 }
+
 .profilep1{
-    font-size: 14px;
-    color : slategray;
+    font-size: 15px;
+    color : black;
+    font-weight: bold;
     padding-left: 2.5rem;
+    font-family: "cookie";
+    letter-spacing: 2px;
 }
 .skillsdiv{
     float: right;
     width: 450px;
+}
+
+@font-face{
+    font-family: "cookie";
+    src: url("./fonts/CookieRunRegular.ttf");
 }
