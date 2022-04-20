@@ -23,10 +23,11 @@ const Profile = () => {
                 </div>
                 <div>
                     <p className='profilep1'>이 름 : 이윤동</p>
-                    <p className='profilep1'>MBTI : E.N.F.J</p>
                     <p className='profilep1'>생 일 : 1992-07-04</p>
                     <p className='profilep1'>번 호 : 010-2309-3781</p>
                     <p className='profilep1'>취 미 : 사진 촬영</p>
+                    <p className='profilep1'>장 점 : 책임감</p>
+                    <p className='profilep1'>MBTI : E.N.F.J</p>
                 </div>
                 <div>
                     <div>

@@ -1,7 +1,13 @@
 .appbg{
   background-color: white;
-
 }
+.homediv{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 5fr;
+}
+
+
 .appbu{
   position:fixed;
   margin-top: 21%
@@ -14,6 +20,7 @@
   height: 30px;
   margin-top: 0.5rem;
   margin-left: 4rem;
+
   font: 400 12px system-ui;
   border-width: 2px;
   border-style: solid;

@@ -4,10 +4,7 @@ import {FaHouzz, FaSchool} from "react-icons/fa";
 import { MdVolunteerActivism, MdSchool } from "react-icons/md"
 import { GiPistolGun } from "react-icons/gi"
 import { BsImages } from "react-icons/bs"
-
-
-import './App.css';
-
+import './App.scss';
 
 
 const Career = () => {
