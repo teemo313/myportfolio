@@ -4,10 +4,13 @@ import surfprofile from "./img/myprofile.png" ;
 import myskills2 from './img/skills2.png';
 import './App.css';
 
+
+
 // import { BsStarFill, BsImages } from "react-icons/bs"
 // import Leeyoondong from './img/Leeyoondong.jpg';
 
 const Profile = () => {
+    
 
     return(
         <div className="profilebg" style={{alignItems:'center', height: window.innerHeight}}>
@@ -31,6 +34,7 @@ const Profile = () => {
                 </div>
                 <div>
                     <div>
+                        <img className='skillsdiv' src={myskills2} alt='스킬' />
                         <img className='skillsdiv' src={myskills2} alt='스킬' />
                     </div>
                 </div>

@@ -47,9 +47,8 @@ function App() {
           <div><h1 className='titlefont'>Home</h1></div>
           <div></div>
           <div></div>
-          <div><img src={mypenguin} alt='펭귄' style={{width:'800px', marginTop:'5rem', marginLeft:'7rem'}}/></div>
+          <div><img src={mypenguin} alt='펭귄' style={{width:'800px', marginTop:'1rem', marginLeft:'7rem'}}/></div>
           <div></div>
-         
       </div>
       <div ref={ref2} style={{height:window.innerHeight}}>
         <Profile />
