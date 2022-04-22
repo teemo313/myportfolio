@@ -1,9 +1,9 @@
 import React from 'react';
 import './Modal.scss';
-// import Photograph from './Photograph';
 
-const Modal = (props) => {
-  // 열기, 닫기, 모달 헤더 텍스트를 부모로부터 받아옴
+
+const ProjectModal4 = (props) => {
+
   const { open, close, header} = props;
 
   return (
@@ -24,4 +24,4 @@ const Modal = (props) => {
   );
 };
 
-export default Modal;
+export default ProjectModal4;

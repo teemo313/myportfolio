@@ -3,6 +3,7 @@
     grid-template-columns: (1fr 4fr 1fr);
     grid-template-rows: (1fr 4fr 1fr);
     justify-items: center;
+    
 }
 .jectinnergrid{
     width: 100%;
@@ -11,4 +12,36 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0rem;
     align-items: center;
+    
+}
+
+.project1img{
+    width : 200px;
+    height: 700px;
+    
+}
+
+.modalgrid1{
+    display: grid;
+    grid-template-columns: (1fr);
+    grid-template-rows: (1fr 4fr 1fr);
+    justify-items: center;
+}
+.modalgrid2{
+    display: grid;
+    grid-template-columns: (1fr 1fr );
+    grid-template-rows: (1fr 4fr 1fr);
+    justify-items: center;
+}
+.modalgrid3{
+    display: grid;
+    grid-template-columns: (1fr 1fr 1fr );
+    grid-template-rows: (1fr 4fr 1fr);
+    justify-items: center;
+}
+.modalgrid4{
+    display: grid;
+    grid-template-columns: (1fr 1fr 1fr 1fr);
+    grid-template-rows: (1fr 4fr 1fr);
+    justify-items: center;
 }
