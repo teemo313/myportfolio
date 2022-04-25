@@ -35,7 +35,7 @@ const Profile = () => {
                 <div>
                     <div>
                         <img className='skillsdiv' src={myskills2} alt='스킬' />
-                        <img className='skillsdiv' src={myskills2} alt='스킬' />
+                        {/* <img className='skillsdiv' src={myskills2} alt='스킬' /> */}
                     </div>
                 </div>
             </div>

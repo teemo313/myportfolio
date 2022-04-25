@@ -1,7 +1,8 @@
 import React, {useState }from "react";
 import './Myproject.scss';
 import './App.css';
-import penguin12 from './img/penguin.png';
+
+import photoproject1 from './img/project1.PNG';
 import ProjectModal1 from "./ProjectModal1";
 import ProjectModal2 from "./ProjectModal2";
 import ProjectModal3 from "./ProjectModal3";
@@ -41,19 +42,19 @@ const Myproject = () => {
             <div className='jectinnergrid' style={{alignItems:'center', justifyItems:'center'}}>
                 <div>
                     <div><h1 style={{textAlign:'center'}}>Portfolio</h1></div>
-                    <img id="1"className="project1img" onClick={openProject1Modal} src={penguin12} alt="펭귄" />
+                    <img id="1"className="project1img" onClick={openProject1Modal} src={photoproject1} alt="포트폴리오" />
                 </div>
                 <div>
                     <div><h1 style={{textAlign:'center'}}>Portfolio</h1></div>
-                    <img id="2"className="project1img" onClick={openProject2Modal} src={penguin12} alt="펭귄" />
+                    <img id="2"className="project1img" onClick={openProject2Modal} src={photoproject1} alt="펭귄" />
                 </div>
                 <div>
                     <div><h1 style={{textAlign:'center'}}>Portfolio</h1></div>
-                    <img id="3" className="project1img" onClick={openProject3Modal} src={penguin12} alt="펭귄" />
+                    <img id="3" className="project1img" onClick={openProject3Modal} src={photoproject1} alt="펭귄" />
                 </div>
                 <div>
                     <div><h1 style={{textAlign:'center'}}>Portfolio</h1></div>
-                    <img id="4" className="project1img" onClick={openProject4Modal} src={penguin12} alt="펭귄" />
+                    <img id="4" className="project1img" onClick={openProject4Modal} src={photoproject1} alt="펭귄" />
                 </div>
             </div>
             <div>

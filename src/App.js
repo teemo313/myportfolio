@@ -9,7 +9,7 @@ import Myproject from './Myproject';
 import Photograph from './Photograph';
 import Footer from './Footer';
 
-import mypenguin from './img/penguin.png';
+import mypenguin from './img/penguin2.PNG';
 
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
           <div><h1 className='titlefont'>Home</h1></div>
           <div></div>
           <div></div>
-          <div><img src={mypenguin} alt='펭귄' style={{width:'800px', marginTop:'1rem', marginLeft:'7rem'}}/></div>
+          <div><img src={mypenguin} alt='펭귄' style={{width:'500px', marginTop:'0rem', marginLeft:'0rem'}}/></div>
           <div></div>
       </div>
       <div ref={ref2} style={{height:window.innerHeight}}>
