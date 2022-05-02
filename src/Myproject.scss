@@ -17,12 +17,12 @@
 
 .project1img{
     width : 350px;
-    height: 700px;
+    height: 600px;
     opacity: 0.7;    
 }
 .project1img:hover{
     width : 350px;
-    height: 700px;
+    height: 600px;
     opacity: 1.0;
 }
 
@@ -33,15 +33,13 @@
     justify-items: center;
 }
 .modalgrid2{
-    display: grid;
-    grid-template-columns: (1fr 1fr );
-    grid-template-rows: (1fr 4fr 1fr);
+    width: 370px;
+    height: 300px;
     justify-items: center;
 }
 .modalgrid3{
-    display: grid;
-    grid-template-columns: (1fr 1fr 1fr );
-    grid-template-rows: (1fr 4fr 1fr);
+    width: 370px;
+    height: 300px;
     justify-items: center;
 }
 .modalgrid4{
@@ -49,4 +47,21 @@
     grid-template-columns: (1fr 1fr 1fr 1fr);
     grid-template-rows: (1fr 4fr 1fr);
     justify-items: center;
+}
+.modalh1{
+    font-size: 13px;
+    font-weight: bold;
+    color: cornflowerblue;
+    font-family: "noto";
+    
+}
+.modalh3{
+    font-size: 10px;
+    margin:0.3rem;
+    font-family: "noto";
+    
+}
+@font-face{
+    font-family: "noto";
+    src: url("./fonts/NotoSansKRRegular.otf");
 }
